@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f4f6fb; color: #1e2430; }
+.container { max-width: 1180px; margin: 16px auto; padding: 0 12px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+h1 { margin: 0; font-size: 22px; }
+.card { background: #fff; border-radius: 10px; padding: 12px; box-shadow: 0 3px 12px rgba(0,0,0,.08); margin-bottom: 12px; }
+button { border: 0; border-radius: 8px; padding: 8px 12px; background: #1466ff; color: #fff; cursor: pointer; }
+button.secondary { background: #5f6879; }
+button.danger { background: #b42318; }
+.actions { display: flex; gap: 8px; align-items: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 10px; }
+.field { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; }
+.field label { width: 120px; font-size: 13px; }
+.field input, .field select, .field textarea { flex: 1; border: 1px solid #d5d9e2; border-radius: 6px; padding: 6px; }
+.sub-title { margin: 8px 0; font-weight: 700; }
+.listener-row { border: 1px dashed #c7cfdd; border-radius: 6px; padding: 8px; margin-bottom: 6px; }
+pre { white-space: pre-wrap; max-height: 220px; overflow: auto; background: #0d1117; color: #d2e7ff; padding: 10px; border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #ebedf3; padding: 6px; text-align: left; font-size: 13px; }

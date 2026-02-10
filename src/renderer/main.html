@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>库存同步主页</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>库存同步中心</h1>
+      <button id="openDevToolsBtn">开发者模式</button>
+    </header>
+
+    <section class="card">
+      <h2>库存同步（主页）</h2>
+      <p>这里是库存同步主功能入口。网页监听请通过菜单打开“网页监听”窗口运行，关闭窗口后任务继续后台运行。</p>
+      <button id="refreshDataBtn">刷新已采集 Header 数据</button>
+      <table>
+        <thead><tr><th>主键</th><th>值</th><th>页面</th><th>监听器</th><th>更新时间</th></tr></thead>
+        <tbody id="capturedTableBody"></tbody>
+      </table>
+    </section>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
