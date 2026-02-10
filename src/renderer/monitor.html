@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>网页监听配置</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="container monitor">
+    <header>
+      <h1>网页监听配置</h1>
+      <div class="actions">
+        <span id="countdown">自动运行倒计时：--</span>
+        <button id="addPageBtn">新增页面</button>
+        <button id="saveBtn">保存配置</button>
+        <button id="runBtn">确认并运行</button>
+        <button id="pauseBtn">暂停</button>
+      </div>
+    </header>
+    <section id="pageList" class="grid"></section>
+
+    <section class="card">
+      <h2>监听日志（中文关键字）</h2>
+      <pre id="logBox"></pre>
+    </section>
+  </div>
+  <script src="./monitor.js"></script>
+</body>
+</html>

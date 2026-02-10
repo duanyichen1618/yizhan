@@ -1,0 +1,15 @@
+{
+  "name": "inventory-sync-desktop",
+  "version": "0.1.0",
+  "description": "库存同步与网页监听工具",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "lint:check": "node --check src/main.js && node --check src/monitor-manager.js && node --check src/preload.js && node --check src/preload-monitor.js && node --check src/renderer/main.js && node --check src/renderer/monitor.js"
+  },
+  "dependencies": {
+    "electron": "^31.3.1",
+    "puppeteer": "^24.2.0",
+    "sqlite3": "^5.1.7"
+  }
+}
